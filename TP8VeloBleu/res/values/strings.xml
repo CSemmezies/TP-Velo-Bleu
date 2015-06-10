@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TP8 Velo Bleu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sorting">Tri :</string>
+    <string name="bicycles">Vélo</string>
+    <string name="places">Places</string>
+    <string name="distances">Distances</string>
+    
+    <string name="name_station">Name</string>
+    <string name="address_station">ADDRESS</string>
+    <string name="title_activity_map">MAP</string>
+
+</resources>

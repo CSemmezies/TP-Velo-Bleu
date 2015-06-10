@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/menuTri"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#333333"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:textColor="#FFF" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:text="@string/sorting"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btBicycles"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:text="@string/bicycles"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btPlaces"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:text="@string/places"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btDistances"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:text="@string/distances"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+     <FrameLayout	
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/frag" >
+        
+    </FrameLayout>
+
+</LinearLayout>
